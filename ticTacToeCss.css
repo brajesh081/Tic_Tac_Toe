@@ -1,0 +1,64 @@
+
+body{
+    background-color: #242B2E;
+    color: white;
+}
+
+button{
+    height: 150px;
+    width: 150px;
+    /* margin: 3px 3px; */
+    /* border: none; */
+    font-size: 3rem;
+    background-color: #242B2E;
+    color: white;
+    /* border-right: 2px whitesmoke solid; */
+    border: 1px  dashed whitesmoke;
+    border-radius: 4px;
+}   
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-internal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#reset{
+    height: 22px;
+    width: 450px;
+    font-size: 18px;
+    margin: 20px 0 ;
+    background-color: #242B2E;
+    color: white;
+}
+
+span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+}
+
+
+.aborder-bottom{
+    border-bottom: 12px red solid;
+}
+
+@media screen and (max-width : 550px ) {
+    button{
+        height: 100px;
+        width: 100px;
+    }
+    #reset{
+        width: 300px
+    }
+
+    #spans{
+        width: 300px;
+    }
+}
